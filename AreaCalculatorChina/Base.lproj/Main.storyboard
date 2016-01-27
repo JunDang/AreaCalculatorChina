@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AreaCalculatorChina" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="w0V-mg-llb" customClass="MAMapView">
+                                <rect key="frame" x="0.0" y="64" width="320" height="460"/>
+                                <color key="backgroundColor" red="0.85586332070000004" green="0.85586332070000004" blue="0.85586332070000004" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <searchBar contentMode="redraw" misplaced="YES" placeholder="请输入要搜索的地址" translatesAutoresizingMaskIntoConstraints="NO" id="tq9-9X-YsY">
+                                <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                                <color key="barTintColor" red="0.29883357960000001" green="0.58119735269999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <navigationBar contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rs7-uB-TKi">
+                                <rect key="frame" x="0.0" y="524" width="320" height="44"/>
+                                <items>
+                                    <navigationItem id="SX3-Ti-5JK">
+                                        <nil key="title"/>
+                                        <barButtonItem key="leftBarButtonItem" image="calculator-32" id="4uK-y3-ZxR">
+                                            <connections>
+                                                <action selector="calculatorButtonPressed:" destination="BYZ-38-t0r" id="gEI-wv-xMz"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="4jK-fW-XU6">
+                                            <rect key="frame" x="65" y="7" width="196" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <segments>
+                                                <segment title="标准(Standard)"/>
+                                                <segment title="卫星(Satellite)"/>
+                                            </segments>
+                                            <connections>
+                                                <action selector="segmentChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="jRX-dn-lHB"/>
+                                            </connections>
+                                        </segmentedControl>
+                                        <barButtonItem key="rightBarButtonItem" image="delete-26" id="CdX-wP-EGu">
+                                            <connections>
+                                                <action selector="deleteButtonPressed:" destination="BYZ-38-t0r" id="GzR-Fa-BAG"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="w0V-mg-llb" firstAttribute="top" secondItem="tq9-9X-YsY" secondAttribute="bottom" id="6Bm-sh-W4u"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="rs7-uB-TKi" secondAttribute="bottom" id="JFH-Bi-1uZ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="w0V-mg-llb" secondAttribute="trailing" constant="-20" id="Pkm-6n-68u"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="rs7-uB-TKi" secondAttribute="trailing" constant="-20" id="PsT-k0-tmk"/>
+                            <constraint firstItem="w0V-mg-llb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="T8I-5g-p99"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="tq9-9X-YsY" secondAttribute="trailing" constant="-20" id="WNs-WD-257"/>
+                            <constraint firstItem="rs7-uB-TKi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="YO0-wH-1sp"/>
+                            <constraint firstItem="rs7-uB-TKi" firstAttribute="top" secondItem="w0V-mg-llb" secondAttribute="bottom" id="gkw-kP-ieU"/>
+                            <constraint firstItem="tq9-9X-YsY" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="lav-fX-48a"/>
+                            <constraint firstItem="tq9-9X-YsY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="nMY-lZ-R2G"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="mapTypeSegmentedControl" destination="4jK-fW-XU6" id="aCH-zE-7f2"/>
+                        <outlet property="mapView" destination="w0V-mg-llb" id="zd1-Lj-rBj"/>
+                        <outlet property="searchBar" destination="tq9-9X-YsY" id="Bwg-7R-GHy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="440" y="429"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="calculator-32" width="32" height="32"/>
+        <image name="delete-26" width="26" height="26"/>
+    </resources>
+</document>

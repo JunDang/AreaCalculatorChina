@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		077235CE1BFB8599008738E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077235CD1BFB8599008738E3 /* AppDelegate.swift */; };
+		077235D01BFB8599008738E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077235CF1BFB8599008738E3 /* ViewController.swift */; };
+		077235D31BFB8599008738E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 077235D11BFB8599008738E3 /* Main.storyboard */; };
+		077235D51BFB8599008738E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 077235D41BFB8599008738E3 /* Assets.xcassets */; };
+		077235D81BFB8599008738E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 077235D61BFB8599008738E3 /* LaunchScreen.storyboard */; };
+		077235E31BFB8599008738E3 /* AreaCalculatorChinaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077235E21BFB8599008738E3 /* AreaCalculatorChinaTests.swift */; };
+		077235EE1BFB8599008738E3 /* AreaCalculatorChinaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077235ED1BFB8599008738E3 /* AreaCalculatorChinaUITests.swift */; };
+		077236061BFBAD3C008738E3 /* SwiftyJSON2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077236031BFBAD3C008738E3 /* SwiftyJSON2.swift */; };
+		077236071BFBAD3C008738E3 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077236041BFBAD3C008738E3 /* DataManager.swift */; };
+		077236081BFBAD3C008738E3 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077236051BFBAD3C008738E3 /* AppModel.swift */; };
+		1B661320A6BB84512A2EC497 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A42E593C9452EE6BB38DE4 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		077235DF1BFB8599008738E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 077235C21BFB8599008738E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 077235C91BFB8599008738E3;
+			remoteInfo = AreaCalculatorChina;
+		};
+		077235EA1BFB8599008738E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 077235C21BFB8599008738E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 077235C91BFB8599008738E3;
+			remoteInfo = AreaCalculatorChina;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04EB6E281979B2D1F514382E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		077235CA1BFB8599008738E3 /* AreaCalculatorChina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AreaCalculatorChina.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		077235CD1BFB8599008738E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		077235CF1BFB8599008738E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		077235D21BFB8599008738E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		077235D41BFB8599008738E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		077235D71BFB8599008738E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		077235D91BFB8599008738E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		077235DE1BFB8599008738E3 /* AreaCalculatorChinaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AreaCalculatorChinaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		077235E21BFB8599008738E3 /* AreaCalculatorChinaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaCalculatorChinaTests.swift; sourceTree = "<group>"; };
+		077235E41BFB8599008738E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		077235E91BFB8599008738E3 /* AreaCalculatorChinaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AreaCalculatorChinaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		077235ED1BFB8599008738E3 /* AreaCalculatorChinaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaCalculatorChinaUITests.swift; sourceTree = "<group>"; };
+		077235EF1BFB8599008738E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		077236011BFBA040008738E3 /* area.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = area.h; sourceTree = "<group>"; };
+		077236021BFBAD3C008738E3 /* SwiftyJSON2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftyJSON2.h; sourceTree = "<group>"; };
+		077236031BFBAD3C008738E3 /* SwiftyJSON2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON2.swift; sourceTree = "<group>"; };
+		077236041BFBAD3C008738E3 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		077236051BFBAD3C008738E3 /* AppModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		2B79C4783F185E84A8B84F93 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		57A42E593C9452EE6BB38DE4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		077235C71BFB8599008738E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B661320A6BB84512A2EC497 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077235DB1BFB8599008738E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077235E61BFB8599008738E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		077235C11BFB8599008738E3 = {
+			isa = PBXGroup;
+			children = (
+				077236011BFBA040008738E3 /* area.h */,
+				077235CC1BFB8599008738E3 /* AreaCalculatorChina */,
+				077235E11BFB8599008738E3 /* AreaCalculatorChinaTests */,
+				077235EC1BFB8599008738E3 /* AreaCalculatorChinaUITests */,
+				077235CB1BFB8599008738E3 /* Products */,
+				A7B7B5FEBF13D40887726953 /* Pods */,
+				B1ED0C2E03B145010935F2A5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		077235CB1BFB8599008738E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				077235CA1BFB8599008738E3 /* AreaCalculatorChina.app */,
+				077235DE1BFB8599008738E3 /* AreaCalculatorChinaTests.xctest */,
+				077235E91BFB8599008738E3 /* AreaCalculatorChinaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		077235CC1BFB8599008738E3 /* AreaCalculatorChina */ = {
+			isa = PBXGroup;
+			children = (
+				077235CD1BFB8599008738E3 /* AppDelegate.swift */,
+				077235CF1BFB8599008738E3 /* ViewController.swift */,
+				077235D11BFB8599008738E3 /* Main.storyboard */,
+				077235D41BFB8599008738E3 /* Assets.xcassets */,
+				077235D61BFB8599008738E3 /* LaunchScreen.storyboard */,
+				077235D91BFB8599008738E3 /* Info.plist */,
+				077236021BFBAD3C008738E3 /* SwiftyJSON2.h */,
+				077236031BFBAD3C008738E3 /* SwiftyJSON2.swift */,
+				077236041BFBAD3C008738E3 /* DataManager.swift */,
+				077236051BFBAD3C008738E3 /* AppModel.swift */,
+			);
+			path = AreaCalculatorChina;
+			sourceTree = "<group>";
+		};
+		077235E11BFB8599008738E3 /* AreaCalculatorChinaTests */ = {
+			isa = PBXGroup;
+			children = (
+				077235E21BFB8599008738E3 /* AreaCalculatorChinaTests.swift */,
+				077235E41BFB8599008738E3 /* Info.plist */,
+			);
+			path = AreaCalculatorChinaTests;
+			sourceTree = "<group>";
+		};
+		077235EC1BFB8599008738E3 /* AreaCalculatorChinaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				077235ED1BFB8599008738E3 /* AreaCalculatorChinaUITests.swift */,
+				077235EF1BFB8599008738E3 /* Info.plist */,
+			);
+			path = AreaCalculatorChinaUITests;
+			sourceTree = "<group>";
+		};
+		A7B7B5FEBF13D40887726953 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B79C4783F185E84A8B84F93 /* Pods.debug.xcconfig */,
+				04EB6E281979B2D1F514382E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B1ED0C2E03B145010935F2A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57A42E593C9452EE6BB38DE4 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		077235C91BFB8599008738E3 /* AreaCalculatorChina */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 077235F21BFB8599008738E3 /* Build configuration list for PBXNativeTarget "AreaCalculatorChina" */;
+			buildPhases = (
+				0A1A1C388BA9E83F0221DC03 /* Check Pods Manifest.lock */,
+				077235C61BFB8599008738E3 /* Sources */,
+				077235C71BFB8599008738E3 /* Frameworks */,
+				077235C81BFB8599008738E3 /* Resources */,
+				AA5DB5D0D1DCDA36AA323803 /* Embed Pods Frameworks */,
+				B834356A79513D85F8983EA1 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AreaCalculatorChina;
+			productName = AreaCalculatorChina;
+			productReference = 077235CA1BFB8599008738E3 /* AreaCalculatorChina.app */;
+			productType = "com.apple.product-type.application";
+		};
+		077235DD1BFB8599008738E3 /* AreaCalculatorChinaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 077235F51BFB8599008738E3 /* Build configuration list for PBXNativeTarget "AreaCalculatorChinaTests" */;
+			buildPhases = (
+				077235DA1BFB8599008738E3 /* Sources */,
+				077235DB1BFB8599008738E3 /* Frameworks */,
+				077235DC1BFB8599008738E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				077235E01BFB8599008738E3 /* PBXTargetDependency */,
+			);
+			name = AreaCalculatorChinaTests;
+			productName = AreaCalculatorChinaTests;
+			productReference = 077235DE1BFB8599008738E3 /* AreaCalculatorChinaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		077235E81BFB8599008738E3 /* AreaCalculatorChinaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 077235F81BFB8599008738E3 /* Build configuration list for PBXNativeTarget "AreaCalculatorChinaUITests" */;
+			buildPhases = (
+				077235E51BFB8599008738E3 /* Sources */,
+				077235E61BFB8599008738E3 /* Frameworks */,
+				077235E71BFB8599008738E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				077235EB1BFB8599008738E3 /* PBXTargetDependency */,
+			);
+			name = AreaCalculatorChinaUITests;
+			productName = AreaCalculatorChinaUITests;
+			productReference = 077235E91BFB8599008738E3 /* AreaCalculatorChinaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		077235C21BFB8599008738E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Jun Dang";
+				TargetAttributes = {
+					077235C91BFB8599008738E3 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = UY3JE2JN3T;
+					};
+					077235DD1BFB8599008738E3 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 077235C91BFB8599008738E3;
+					};
+					077235E81BFB8599008738E3 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 077235C91BFB8599008738E3;
+					};
+				};
+			};
+			buildConfigurationList = 077235C51BFB8599008738E3 /* Build configuration list for PBXProject "AreaCalculatorChina" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 077235C11BFB8599008738E3;
+			productRefGroup = 077235CB1BFB8599008738E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				077235C91BFB8599008738E3 /* AreaCalculatorChina */,
+				077235DD1BFB8599008738E3 /* AreaCalculatorChinaTests */,
+				077235E81BFB8599008738E3 /* AreaCalculatorChinaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		077235C81BFB8599008738E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077235D81BFB8599008738E3 /* LaunchScreen.storyboard in Resources */,
+				077235D51BFB8599008738E3 /* Assets.xcassets in Resources */,
+				077235D31BFB8599008738E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077235DC1BFB8599008738E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077235E71BFB8599008738E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A1A1C388BA9E83F0221DC03 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AA5DB5D0D1DCDA36AA323803 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B834356A79513D85F8983EA1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		077235C61BFB8599008738E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077235D01BFB8599008738E3 /* ViewController.swift in Sources */,
+				077236071BFBAD3C008738E3 /* DataManager.swift in Sources */,
+				077235CE1BFB8599008738E3 /* AppDelegate.swift in Sources */,
+				077236081BFBAD3C008738E3 /* AppModel.swift in Sources */,
+				077236061BFBAD3C008738E3 /* SwiftyJSON2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077235DA1BFB8599008738E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077235E31BFB8599008738E3 /* AreaCalculatorChinaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077235E51BFB8599008738E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077235EE1BFB8599008738E3 /* AreaCalculatorChinaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		077235E01BFB8599008738E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 077235C91BFB8599008738E3 /* AreaCalculatorChina */;
+			targetProxy = 077235DF1BFB8599008738E3 /* PBXContainerItemProxy */;
+		};
+		077235EB1BFB8599008738E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 077235C91BFB8599008738E3 /* AreaCalculatorChina */;
+			targetProxy = 077235EA1BFB8599008738E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		077235D11BFB8599008738E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				077235D21BFB8599008738E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		077235D61BFB8599008738E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				077235D71BFB8599008738E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		077235F01BFB8599008738E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		077235F11BFB8599008738E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		077235F31BFB8599008738E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B79C4783F185E84A8B84F93 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = AreaCalculatorChina/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.beida.AreaCalculatorChina;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = area.h;
+			};
+			name = Debug;
+		};
+		077235F41BFB8599008738E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04EB6E281979B2D1F514382E /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = AreaCalculatorChina/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.beida.AreaCalculatorChina;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = area.h;
+			};
+			name = Release;
+		};
+		077235F61BFB8599008738E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AreaCalculatorChinaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.beida.AreaCalculatorChinaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AreaCalculatorChina.app/AreaCalculatorChina";
+			};
+			name = Debug;
+		};
+		077235F71BFB8599008738E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AreaCalculatorChinaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.beida.AreaCalculatorChinaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AreaCalculatorChina.app/AreaCalculatorChina";
+			};
+			name = Release;
+		};
+		077235F91BFB8599008738E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AreaCalculatorChinaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.beida.AreaCalculatorChinaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AreaCalculatorChina;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		077235FA1BFB8599008738E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AreaCalculatorChinaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.beida.AreaCalculatorChinaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AreaCalculatorChina;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		077235C51BFB8599008738E3 /* Build configuration list for PBXProject "AreaCalculatorChina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				077235F01BFB8599008738E3 /* Debug */,
+				077235F11BFB8599008738E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		077235F21BFB8599008738E3 /* Build configuration list for PBXNativeTarget "AreaCalculatorChina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				077235F31BFB8599008738E3 /* Debug */,
+				077235F41BFB8599008738E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		077235F51BFB8599008738E3 /* Build configuration list for PBXNativeTarget "AreaCalculatorChinaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				077235F61BFB8599008738E3 /* Debug */,
+				077235F71BFB8599008738E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		077235F81BFB8599008738E3 /* Build configuration list for PBXNativeTarget "AreaCalculatorChinaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				077235F91BFB8599008738E3 /* Debug */,
+				077235FA1BFB8599008738E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 077235C21BFB8599008738E3 /* Project object */;
+}
